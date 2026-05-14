@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+  inteiro algoritimo = 1
+
+  enquanto(algoritimo <= 5){
+    escreva("\nAlgoritimo")
+    algoritimo = algoritimo + 1
+  }  
+  }
+}
