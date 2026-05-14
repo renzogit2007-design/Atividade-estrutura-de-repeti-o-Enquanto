@@ -1,0 +1,17 @@
+programa {
+	funcao inicio() {
+		inteiro numero, totalPares = 0, i = 1
+
+		enquanto (i <= 10) {
+			escreva("Digite o ", i, "º número: ")
+			leia(numero)
+
+			se (numero % 2 == 0) {
+				totalPares = totalPares + 1
+			}
+			i = i + 1
+		}
+
+		escreva("Quantidade de números pares: ", totalPares)
+	}
+}
